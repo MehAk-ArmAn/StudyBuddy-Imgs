@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <radialGradient id="orb" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity=".95"/>
+      <stop offset="45%" stop-color="#ec4899" stop-opacity=".75"/>
+      <stop offset="100%" stop-color="#070B2D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="g1" x1="175" y1="142" x2="850" y2="850">
+      <stop stop-color="#a855f7"/>
+      <stop offset=".48" stop-color="#ec4899"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff7ad"/>
+      <stop offset=".45" stop-color="#facc15"/>
+      <stop offset="1" stop-color="#fb923c"/>
+    </linearGradient>
+    <filter id="soft" x="-35%" y="-35%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#00081d" flood-opacity=".45"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#a855f7" flood-opacity=".35"/>
+    </filter>
+    <filter id="spark" x="-80%" y="-80%" width="260%" height="260%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#facc15" flood-opacity=".85"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#ec4899" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <g filter="url(#soft)">
+    <circle cx="512" cy="512" r="370" fill="url(#orb)" opacity=".32"/>
+    <ellipse cx="512" cy="558" rx="330" ry="94" stroke="url(#g1)" stroke-width="8" opacity=".5"/>
+    <ellipse cx="512" cy="558" rx="390" ry="120" stroke="#a855f7" stroke-width="3" opacity=".18"/>
+  </g>
+  <g opacity=".95">
+    <path d="M154 282l18 38 42 6-30 29 7 42-37-20-37 20 7-42-30-29 42-6 18-38z" fill="url(#gold)" filter="url(#spark)"/>
+    <path d="M819 202l11 23 26 4-19 18 5 26-23-13-23 13 5-26-19-18 26-4 11-23z" fill="url(#gold)" filter="url(#spark)"/>
+    <path d="M838 748l15 31 34 5-25 24 6 34-30-16-30 16 6-34-25-24 34-5 15-31z" fill="#a855f7" filter="url(#spark)"/>
+    <circle cx="255" cy="764" r="10" fill="#a855f7" filter="url(#spark)"/>
+    <circle cx="744" cy="318" r="8" fill="#fff" filter="url(#spark)"/>
+    <circle cx="214" cy="474" r="7" fill="#ec4899" filter="url(#spark)"/>
+  </g>
+  <g filter="url(#soft)">
+    <path d="M512 704C370 612 268 520 268 390c0-83 65-142 143-142 45 0 81 21 101 54 20-33 56-54 101-54 78 0 143 59 143 142 0 130-102 222-244 314z" fill="url(#g1)" stroke="#F0ABFC" stroke-width="8"/>
+    <circle cx="424" cy="410" r="52" fill="#FDE68A"/>
+    <circle cx="600" cy="410" r="52" fill="#FDE68A"/>
+    <path d="M348 574c24-72 126-72 152 0" stroke="#fff" stroke-width="28" stroke-linecap="round"/>
+    <path d="M524 574c24-72 126-72 152 0" stroke="#fff" stroke-width="28" stroke-linecap="round"/>
+    <rect x="360" y="636" width="304" height="104" rx="34" fill="#0B123D" stroke="#A78BFA" stroke-width="6"/>
+    <path d="M420 690l36 34 78-86" stroke="#22D3EE" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M582 650h48M582 692h48" stroke="#FACC15" stroke-width="18" stroke-linecap="round"/>
+  </g>
+</svg>
