@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <radialGradient id="orb" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".95"/>
+      <stop offset="45%" stop-color="#8b5cf6" stop-opacity=".75"/>
+      <stop offset="100%" stop-color="#070B2D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="g1" x1="175" y1="142" x2="850" y2="850">
+      <stop stop-color="#22d3ee"/>
+      <stop offset=".48" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff7ad"/>
+      <stop offset=".45" stop-color="#facc15"/>
+      <stop offset="1" stop-color="#fb923c"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.32 0 1 0 0 0.12 0 0 1 0 0.95 0 0 0 .9 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-35%" y="-35%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#00081d" flood-opacity=".45"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#22d3ee" flood-opacity=".35"/>
+    </filter>
+    <filter id="spark" x="-80%" y="-80%" width="260%" height="260%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#facc15" flood-opacity=".85"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#8b5cf6" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <g filter="url(#soft)">
+    <circle cx="512" cy="512" r="370" fill="url(#orb)" opacity=".32"/>
+    <ellipse cx="512" cy="558" rx="330" ry="94" stroke="url(#g1)" stroke-width="8" opacity=".5"/>
+    <ellipse cx="512" cy="558" rx="390" ry="120" stroke="#22d3ee" stroke-width="3" opacity=".18"/>
+  </g>
+  <g opacity=".95">
+    <path d="M154 282l18 38 42 6-30 29 7 42-37-20-37 20 7-42-30-29 42-6 18-38z" fill="url(#gold)" filter="url(#spark)"/>
+    <path d="M819 202l11 23 26 4-19 18 5 26-23-13-23 13 5-26-19-18 26-4 11-23z" fill="url(#gold)" filter="url(#spark)"/>
+    <path d="M838 748l15 31 34 5-25 24 6 34-30-16-30 16 6-34-25-24 34-5 15-31z" fill="#22d3ee" filter="url(#spark)"/>
+    <circle cx="255" cy="764" r="10" fill="#22d3ee" filter="url(#spark)"/>
+    <circle cx="744" cy="318" r="8" fill="#fff" filter="url(#spark)"/>
+    <circle cx="214" cy="474" r="7" fill="#ec4899" filter="url(#spark)"/>
+  </g>
+  
+  <g filter="url(#soft)">
+    <rect x="286" y="328" width="454" height="330" rx="72" fill="#0B123D" stroke="url(#g1)" stroke-width="8"/>
+    <rect x="330" y="384" width="92" height="92" rx="28" fill="#7C3AED" opacity=".9"/>
+    <rect x="466" y="384" width="92" height="92" rx="28" fill="#0EA5E9" opacity=".92"/>
+    <rect x="602" y="384" width="92" height="92" rx="28" fill="#EC4899" opacity=".9"/>
+    <rect x="330" y="520" width="92" height="92" rx="28" fill="#22C55E" opacity=".9"/>
+    <rect x="466" y="520" width="92" height="92" rx="28" fill="#F59E0B" opacity=".94"/>
+    <rect x="602" y="520" width="92" height="92" rx="28" fill="#8B5CF6" opacity=".96"/>
+    <path d="M640 250c-72 26-129 96-146 164 68-17 138-74 164-146 6-18-1-25-18-18z" fill="url(#g1)" stroke="#A5F3FC" stroke-width="6"/>
+    <circle cx="609" cy="301" r="27" fill="#F8FAFC"/>
+    <path d="M492 414l-38 74 75-37" fill="#FB923C"/>
+    <path d="M557 563l42 42 78-95" stroke="#fff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M349 429h53M375 402v53" stroke="#fff" stroke-width="20" stroke-linecap="round"/>
+  </g>
+
+</svg>
