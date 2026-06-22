@@ -1,0 +1,31 @@
+{
+  "raw_base": "https://raw.githubusercontent.com/MehAk-ArmAn/StudyBuddy-Imgs/main/",
+  "brand_logo": "brand/logo-icon.png",
+  "hero": "hero/hero-dolphin-book.png",
+  "homepage_paths": [
+    "homepage-paths/path-apps.png",
+    "homepage-paths/path-parents.png",
+    "homepage-paths/path-teachers.png",
+    "homepage-paths/path-support.png"
+  ],
+  "dashboard": [
+    "dashboard/role-student.svg",
+    "dashboard/role-parent.svg",
+    "dashboard/role-teacher.svg",
+    "dashboard/trust-email.svg",
+    "dashboard/trust-age.svg",
+    "dashboard/trust-role.svg",
+    "dashboard/trust-parent.svg",
+    "dashboard/trust-teacher.svg"
+  ],
+  "apps": [
+    "apps/app-math-quest.png",
+    "apps/app-spelling-sprint.png",
+    "apps/app-reading-garden.png",
+    "apps/app-focus-forest.png",
+    "apps/app-planner-city.png",
+    "apps/app-quiz-galaxy.png",
+    "apps/app-shapes-lab.png",
+    "apps/app-flashcard-castle.png"
+  ]
+}
