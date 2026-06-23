@@ -1,0 +1,31 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="640" y2="420">
+      <stop stop-color="#050816"/>
+      <stop offset="0.55" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#050816"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="640" height="420" rx="42" fill="url(#g)"/>
+  <circle cx="118" cy="96" r="74" fill="url(#orb)" opacity="0.75"/>
+  <circle cx="520" cy="110" r="94" fill="url(#orb)" opacity="0.45"/>
+  <circle cx="442" cy="315" r="118" fill="url(#orb)" opacity="0.38"/>
+  <path d="M82 292C172 190 270 346 376 242C462 158 513 217 572 160" stroke="#22d3ee" stroke-width="7" stroke-linecap="round" opacity="0.9" filter="url(#glow)"/>
+  <path d="M88 292C178 190 276 346 382 242C468 158 519 217 578 160" stroke="#facc15" stroke-width="3" stroke-linecap="round"/>
+  <rect x="190" y="112" width="260" height="168" rx="28" fill="#020617" fill-opacity="0.55" stroke="#22d3ee" stroke-opacity="0.55"/>
+  <rect x="224" y="148" width="132" height="18" rx="9" fill="#22d3ee"/>
+  <rect x="224" y="188" width="190" height="14" rx="7" fill="#fff" opacity="0.22"/>
+  <rect x="224" y="216" width="150" height="14" rx="7" fill="#fff" opacity="0.16"/>
+  <path d="M320 78L334 111L370 114L342 136L351 172L320 153L289 172L298 136L270 114L306 111L320 78Z" fill="#facc15"/>
+  <circle cx="260" cy="255" r="20" fill="#22d3ee"/>
+  <circle cx="320" cy="255" r="20" fill="#facc15"/>
+  <circle cx="380" cy="255" r="20" fill="#22d3ee"/>
+  <text x="320" y="352" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900" fill="#fff">Cosmic Dolphin</text>
+</svg>
